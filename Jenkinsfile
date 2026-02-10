@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'M3' // This must match the name you created in the Tools menu earlier
+        maven 'Maven3' // This must match the name you created in the Tools menu earlier
     }
     stages {
         stage('Checkout') {
